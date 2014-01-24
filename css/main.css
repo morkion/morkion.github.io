@@ -1,3 +1,7 @@
+@font-face {
+	font-family: TranscendGamesUpright;
+	src: url("../fonts/TranscendsGamesUpright.otf");
+}
 *{
 	margin: 0px 0px;
 	padding: 0px 0px;
@@ -39,9 +43,13 @@ body{
 	font-size: 100px;
 	font-weight: bolder;
 	color: rgba(100,100,100,0.5);
+	font-family: TranscendGamesUpright;
 }
 #content{
 	color: rgb(150,150,150);
 	font-size:20px;
+}
+li{
+	margin: 0px 24px;
 }
 
