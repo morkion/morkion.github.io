@@ -51,6 +51,7 @@ body{
 }
 li{
 	margin: 0px 24px;
+	padding: 0.1em;
 }
 
 a, a:visited{
