@@ -1,3 +1,7 @@
+/*
+ (c) 2014 morkion. Available under GPL v3 License.
+ See included `LICENSE` file for full text of the license or see: http://www.gnu.org/copyleft/gpl.html 
+*/
 @font-face {
 	font-family: TranscendGamesUpright;
 	src: url("../fonts/TranscendsGamesUpright.otf");
@@ -58,3 +62,6 @@ a, a:visited{
 	color: rgb(150,150,250);
 }
 
+.social{
+	font-family: TranscendGamesUpright;
+}
