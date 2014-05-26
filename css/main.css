@@ -65,3 +65,13 @@ a, a:visited{
 .social{
 	font-family: TranscendGamesUpright;
 }
+
+.project{
+	background:  rgba(0,0,0,0.05);
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+	margin: 0.1em;
+	padding: 0.1em;
+	border-bottom-right-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+	list-style-type: none;
+}
