@@ -12,7 +12,7 @@
 }
 body{
 	text-align: center;
-	background: linear-gradient(to bottom,rgb(255,255,255),rgb(155,155,155)) fixed;
+	background: linear-gradient(to bottom, #002b36, #073642) fixed;
 }
 #wrapper{
 	text-align: left;
@@ -21,7 +21,6 @@ body{
 }
 #nav{
 	height: 100%;
-	width: 70px;
 	background: rgb(0,0,0) fixed;
 	display: inline-block;
 	text-align: left;
@@ -30,27 +29,29 @@ body{
 	border-bottom-right-radius: 10px;
 }
 #nav a{
-	color: rgb(255,255,255);
+	color: #839496;
 	background: rgba(50,50,50,0);
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	font-weight: bold;
-	transition: background 0.4s, padding 0.4s, font-weight 0.4s;
+	font-size: 20px;
+	padding: 2px 2px;
+	border-bottom-right-radius: 10px;
+	transition: background 0.4s, font-weight 0.4s;
 }
 #nav a:hover{
 	background: rgba(50,50,50,1);
-	padding-left: 10px;
 	font-weight: bolder;
 }
 #header{
 	text-align: center;
 	font-size: 100px;
 	font-weight: bolder;
-	color: rgba(100,100,100,0.5);
+	color: #839496;
 	font-family: TranscendGamesUpright;
 }
 #content{
-	color: rgb(150,150,150);
+	color: #839496;
 	font-size:20px;
 }
 li{
@@ -59,7 +60,7 @@ li{
 }
 
 a, a:visited{
-	color: rgb(150,150,250);
+	color: #6c71c4;
 }
 
 .social{
@@ -67,9 +68,10 @@ a, a:visited{
 }
 
 .project{
-	background:  rgba(0,0,0,0.05);
-	border-bottom: 2px solid rgba(0,0,0,0.1);
+	background:  rgba(0,0,0,0.2);
+	border-bottom: 2px solid rgba(0,0,0,0.2);
 	margin: 0.1em;
+	margin-bottom: 0.2em;
 	padding: 0.1em;
 	border-bottom-right-radius: 0.3em;
 	border-bottom-left-radius: 0.3em;
