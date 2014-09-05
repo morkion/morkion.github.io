@@ -1,0 +1,35 @@
+/*
+ (c) 2014 morkion. Available under GPL v3 License.
+ See included `LICENSE` file for full text of the license or see: http://www.gnu.org/copyleft/gpl.html 
+*/
+
+body{
+	background: linear-gradient(to bottom, #000C0F 80%, #002b36) fixed;
+}
+
+#video{
+	text-align: center;
+	margin: 5px auto;
+}
+
+#video iframe{
+	border: 15px solid black;
+	border-radius: 10px;
+}
+
+#steam{
+	border-radius: 10px;
+	text-align: center;
+	color: rgb(50,65,50); 
+	background: linear-gradient(to bottom, #8BB006 5%, #6B8805 95%);
+}
+#steam img{
+	width: 49%;
+	border: none;
+	margin: 5px auto;
+}
+#steam img:hover{
+	border: 5px solid black;
+	margin: 0px auto;
+	border-radius: 5px;
+}
