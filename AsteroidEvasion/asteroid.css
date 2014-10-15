@@ -10,11 +10,13 @@ body{
 #video{
 	text-align: center;
 	margin: 5px auto;
-}
-
-#video iframe{
 	border: 15px solid black;
-	border-radius: 10px;
+	border-radius: 20px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin-bottom: 0px;
+	width: 640px;
+	background:black;
 }
 
 #steam{
@@ -32,4 +34,19 @@ body{
 	border: 5px solid black;
 	margin: 0px auto;
 	border-radius: 5px;
+}
+
+#release{
+	margin-top: 0px;
+	border-radius: 10px;
+	text-align: center; 
+	background: linear-gradient(to bottom, rgba(0,43,54,1) 5%, rgba(0,43,54, 0.5) 95%);
+}
+
+#release img, #release iframe{
+	padding: 10px 10px;
+}
+
+#release img:hover, #release iframe:hover{
+	background: linear-gradient(to bottom, rgba(5,5,10,0.5) 5%, rgba(10,10,20, 0.25) 95%);
 }
